@@ -1,0 +1,50 @@
+body {
+    /* you need to input the font in css first*/
+    background-color: rgb(255, 255, 255);
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:  weight= 500;  font-style:normal;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+  }
+  
+  h1 {text-align: center;
+    font-family: "Pixelfy Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight=200;
+    font-style: normal;}
+  
+  
+  h2 { text-align: center\
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight=200;
+    font-style: normal;
+   }
+  
+  tracks {
+      margin-top: 20px;
+      font-family: "Pixelfy Sans", sans-serif;
+      
+  }
+  
+  button {
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #E1F0F4;
+      color: white;
+      border: none;
+      cursor: hand;
+      border-radius: 5px;
+  }
+  
+  button:hover {
+      background-color: #FFB6C1;
+  }
+  
+  input {
+      padding: 8px;
+      border-radius: 5px;
+      border: 10px solid #FFB6C1;
+  }

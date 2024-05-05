@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>your favorite artist stats</title>
+    <link href="https://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* when you do style this is how you add style to the page with fonts and images, you can do 
+    this in style.css ,but also on html. */
+      body {
+        background-image : url('https://i.pinimg.com/564x/27/46/e7/2746e764e5a345d98c1134e7ffb0b2a6.jpg');
+        background-size: 100vw 100vh;
+     background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body>
+    <h2> check your favorite artist </h2>
+    <div id="artistInput">
+      <label for="artist">input your favorite artist:</label>
+      <input type="text" id="artist" placeholder="enter artist name" />
+      <button onclick="getTopTracks()"> get stats </button>
+    </div>
+    <div id="tracks"></div>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
